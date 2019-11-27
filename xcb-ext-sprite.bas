@@ -4,10 +4,6 @@ rem *
 rem * by Csaba Fekete
 rem *
 rem * Namespace: spr_
-rem *
-rem * Usage:
-rem * INCLUDE "path/to/ext-xcb-sprite.bas"
-rem *
 rem **************************************
 
 const SPR_ENABLE        = $d015 

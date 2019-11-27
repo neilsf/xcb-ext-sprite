@@ -11,7 +11,7 @@ That's it, you can now use all the symbols defined by this extension. Avoid nami
 
 # Examples
 
-Please refer to the file `examples/example.bas`.
+Please refer to the file `examples/pacman-vs-monster.bas` for an example.
 
 # Symbols defined by this extension
 
