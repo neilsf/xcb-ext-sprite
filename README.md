@@ -32,8 +32,8 @@ Please refer to the file `examples/pacman-vs-monster.bas` for an example.
 	proc spr_cleardblwidth(spr_no!)		'Unsets double width for sprite
 	proc spr_setdblheight(spr_no!)		'Sets double height for sprite
 	proc spr_cleardblheight(spr_no!)	'Unsets double height for sprite
-	proc spr_behindbg(spr_no!)	'Makes sprite appear behind graphics
-	proc spr_overbg(spr_no!)	'Makes sprite appear over graphics
+	proc spr_behindbg(spr_no!)		'Makes sprite appear behind graphics
+	proc spr_overbg(spr_no!)		'Makes sprite appear over graphics
 	
 ## Functions
 
