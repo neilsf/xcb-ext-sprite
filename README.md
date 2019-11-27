@@ -11,25 +11,29 @@ That's it, you can now use all the symbols defined by this extension. Avoid nami
 
 # Examples
 
+Please refer to the file `examples/example.bas`.
+
 # Symbols defined by this extension
 
 ## Commands
 
 *Note: sprites are numbered from 0 to 7.*
 
-	proc spr_enable(spr_no!)			'Turns on sprite
-	proc spr_disable(spr_no!)			'Turns off sprite
+	proc spr_enable(spr_no!)		'Turns on sprite
+	proc spr_disable(spr_no!)		'Turns off sprite
 	proc spr_setposy(spr_no!, y!)		'Sets y position of sprite
 	proc spr_setposx(spr_no!, x)		'Sets x position of sprite
 	proc spr_setpos(spr_no!, x, y!)		'Sets both x and y position of sprite
 	proc spr_setshape(spr_no!, shape!)	'Sets shape of sprite (shape! = memory location / 64)
-	proc spr_setmulti(spr_no!)			'Turns on multicolor mode for sprite
-	proc spr_sethires(spr_no!)			'Turns on hires mode for sprite
+	proc spr_setmulti(spr_no!)		'Turns on multicolor mode for sprite
+	proc spr_sethires(spr_no!)		'Turns on hires mode for sprite
 	proc spr_setcolor(spr_no!, color!)	'Sets sprite color
 	proc spr_setdblwidth(spr_no!)		'Sets double width for sprite
 	proc spr_cleardblwidth(spr_no!)		'Unsets double width for sprite
 	proc spr_setdblheight(spr_no!)		'Sets double height for sprite
 	proc spr_cleardblheight(spr_no!)	'Unsets double height for sprite
+	proc spr_behindbg(spr_no!)	'Makes sprite appear behind graphics
+	proc spr_overbg(spr_no!)	'Makes sprite appear over graphics
 	
 ## Functions
 
