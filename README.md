@@ -33,8 +33,8 @@ That's it, you can now use all the symbols defined by this extension. Avoid nami
 	
 ## Functions
 
-	fun spr_spr_collision!(spr_no!) 		'Returns 1 if sprite collides with another sprite, 0 otherwise
-	fun spr_data_collision!(spr_no!) 		'Returns 1 if sprite collides with graphics, 0 otherwise
+	fun spr_spr_collision!(spr_no!) 	'Returns 1 if sprite collides with another sprite, 0 otherwise
+	fun spr_data_collision!(spr_no!) 	'Returns 1 if sprite collides with graphics, 0 otherwise
 
 ## Variables
 
