@@ -286,6 +286,40 @@ proc spr_cleardblheight(spr_no!)
 endproc
 
 rem ******************************
+rem * Command
+rem * spr_behindbg
+rem *
+rem * Arguments:
+rem * spr_no! - No of sprite
+rem ******************************
+
+proc spr_behindbg(spr_no!)
+  asm "
+    ldx     {self}.spr_no
+    lda     _SPR_DATA_PRIO
+    ora.wx  _spr_enable_bits
+    sta     _SPR_DATA_PRIO
+  "
+endproc
+
+rem ******************************
+rem * Command
+rem * overbg
+rem *
+rem * Arguments:
+rem * spr_no! - No of sprite
+rem ******************************
+
+proc spr_overbg(spr_no!)
+  asm "
+    ldx     {self}.spr_no
+    lda     _SPR_DATA_PRIO
+    and.wx  _spr_disable_bits
+    sta     _SPR_DATA_PRIO
+  "
+endproc
+
+rem ******************************
 rem * Function
 rem * spr_spr_collision
 rem *
