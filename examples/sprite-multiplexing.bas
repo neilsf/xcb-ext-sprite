@@ -40,8 +40,8 @@ proc animate
     for \i! = 0 to 6
       spr_setshape \i!, 128 + \f!
     next \i!
-    inc \f!
-    if \f! > 1 then \f! = 0
+    rem neat trick thanks to @neilsf - XORing variable f! (which starts at 0) with 1, switches it back and forth between 0 and 1
+    \f! = \f! ^ 1
     \c! = \ANIM_SPEED!    
   endif
 endproc
